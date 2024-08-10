@@ -412,7 +412,7 @@ emailjs.init("Sy9ksp3Jx6v1FNcVr");
 
                   
                     <input type="text" placeholder="Your Name" id="floatingInput" required>
-                    <input type="email" placeholder="Your Email" id="floatingEmail" required>
+                    <input type="email" placeholder="Your Email" id="floatingEmail" onchange="email_validation(email)" required>
                     <input type="text" placeholder="Your Subject" id="floatingSubject" required>
                     <textarea type="text" placeholder="Your Message" rows="10" cols="30" id="floatingMessage" required></textarea>
                     <button type="submit" onclick="sendmail()">Send Message</button>

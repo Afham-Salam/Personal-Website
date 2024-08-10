@@ -159,7 +159,7 @@ h1::after {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .container img { 
