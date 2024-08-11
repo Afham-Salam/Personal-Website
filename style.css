@@ -1111,6 +1111,9 @@ font-family: 'Inter', sans-serif;
 #services{
  padding-top: 20px;
 }
+#skills{
+  height: auto;
+}
   .About-para {
     font-size: 17px;
     line-height: 38px;
