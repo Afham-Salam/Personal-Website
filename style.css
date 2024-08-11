@@ -1106,7 +1106,10 @@ font-family: 'Inter', sans-serif;
   }
 #about{
 
-  /* padding-top:100px; */
+  padding-top:10px;
+}
+#services{
+ padding-top: 20px;
 }
   .About-para {
     font-size: 17px;
