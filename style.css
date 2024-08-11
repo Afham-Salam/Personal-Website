@@ -271,6 +271,7 @@ h1::after {
   flex-wrap: nowrap;
 }
 
+
 .about-container button {
   /* margin-top: 20px; */
   background-color: white;
@@ -831,6 +832,7 @@ font-family: 'Inter', sans-serif;
 
 
 
+
 @media screen and (min-width:1024px) {
   .headersection {
     display: flex;
@@ -1135,5 +1137,7 @@ font-family: 'Inter', sans-serif;
     grid-template-columns: 300px 300px;
 
   }
-
+  .para p{
+    font-size: 17px;
+  }
 }
