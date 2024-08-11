@@ -999,6 +999,7 @@ font-family: 'Inter', sans-serif;
 
   }
   #skills{
+    height: 100vh;
     padding-top: 0px;
   }
 
@@ -1104,16 +1105,6 @@ font-family: 'Inter', sans-serif;
     
     /* padding-left: 20px; */
   }
-#about{
-
-  padding-top:10px;
-}
-#services{
- padding-top: 20px;
-}
-#skills{
-  height: auto;
-}
   .About-para {
     font-size: 17px;
     line-height: 38px;
