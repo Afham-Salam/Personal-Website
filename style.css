@@ -240,14 +240,16 @@ h1::after {
 
   padding-top: 70px;
   /* height: 100vh; */
-
+ 
+ 
 }
 
 
 .about-section {
   /* margin-top: 70px !important; */
-  /* background-color: #2a2c39;
-  height: 100vh; */
+  
+ 
+  
 
 
 }
@@ -257,6 +259,7 @@ h1::after {
   place-items: center;
   flex-direction: column;
   gap: 5px;
+  margin-top: 20px!important;
 }
 .About-para h2,.About-para h3{
   /* line-height: 20px; */
@@ -1001,13 +1004,15 @@ font-family: 'Inter', sans-serif;
 
   }
   #skills{
+   
     height: 100vh;
-    padding-top: 0px;
+    padding-top: 5px;
   }
-
+  .skills-section{
+padding-top: 35px;
+  }
   .progess-bar {
     width: 90px;
-
   }
   .progress{
     height: 55px!important;
@@ -1137,7 +1142,5 @@ font-family: 'Inter', sans-serif;
     grid-template-columns: 300px 300px;
 
   }
-  .para p{
-    font-size: 17px;
-  }
+ 
 }
