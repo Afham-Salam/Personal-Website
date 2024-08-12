@@ -25,6 +25,7 @@ body {
   overflow: hidden;
 }
 
+
 /* Navbar section */
 .headersection {
   background: #070d1b;
@@ -62,7 +63,7 @@ letter-spacing: 3px;
 }
 
 .disappear {
-  display: none;
+  display: none !important;
 
 
 }
@@ -856,7 +857,7 @@ font-family: 'Inter', sans-serif;
 
   .menuItems {
     display: flex;
-    margin-right: 80px;
+    
     gap: 35px;
   }
 
@@ -1113,7 +1114,7 @@ padding-top: 35px;
     /* padding-left: 20px; */
   }
   .About-para {
-    /* font-size: 17px; */
+    font-size: 17px;
     line-height: 38px;
     width: 80%;
 
