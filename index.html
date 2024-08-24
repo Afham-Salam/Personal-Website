@@ -42,7 +42,7 @@ emailjs.init("Sy9ksp3Jx6v1FNcVr");
 
         <div class="menuItems">
             <div class="links" onclick="closemenu()">
-                <div><a href="#home" class="active">Home</a></div>
+                <div><a href="#home" >Home</a></div>
                 <div><a href=#about>About</a></div>
                 <div><a href="#skills">Skills</a></div>
                 <div><a href="#services">Services</a></div>
@@ -421,7 +421,8 @@ data-aos-duration="1500">
 
                   
                     <input type="text" placeholder="Your Name" id="floatingInput" required>
-                    <input type="email" placeholder="Your Email" id="floatingEmail" onchange="email_validation(email)" required>
+                    <input type="email" placeholder="Your Email" id="floatingEmail" onchange="validateEmail()" required>
+                    <div id="email_msg" ></div>
                     <input type="text" placeholder="Your Subject" id="floatingSubject" required>
                     <textarea type="text" placeholder="Your Message" rows="10" cols="30" id="floatingMessage" required></textarea>
                     <button type="submit" onclick="sendmail()">Send Message</button>
@@ -592,14 +593,30 @@ function closemenu(){
 
 
     emailjs.send("service_brmu3tb","template_elcd3vd",params).then(alert("Email sent successfully!!"))
-    document.getElementById("floatingInput").value = '';
-    document.getElementById('floatingEmail').value = '';
-    document.getElementById('floatingSubject').value = '';
-    document.getElementById('floatingMessage').value = '';
+    document.getElementById("contact-form").reset();
+
 
    
 
 }
+
+   
+    function validateEmail() {
+            const email = document.getElementById("floatingEmail").value;
+            const messageElement = document.getElementById("email_msg");
+
+            const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (emailPattern.test(email)) {
+                messageElement.style.display = "none";  // Hide the message if the email is valid
+
+            } else {
+                messageElement.textContent = "Please enter valid email address .";
+                messageElement.style.color = "#fec544";
+                document.getElementById("floatingEmail").focus(); // Give focus to the email input field
+            }
+        }
+
     </script>
 
 

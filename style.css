@@ -712,6 +712,12 @@ border-radius: 7px;
 .left-section input:focus{
   border: 1px solid #fec544;
 }
+.left-section div{
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  font-size: small;
+ 
+}
 .left-section button{
   align-self: flex-start;
   background-color: white;
