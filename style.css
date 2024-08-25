@@ -1113,6 +1113,9 @@ padding-top: 35px;
     width: 80%;
 
   }
+  .para p{
+    font-size: 15px!important;
+  }
    .progress{
     height: 47px;
   }
