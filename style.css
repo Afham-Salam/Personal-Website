@@ -142,11 +142,6 @@ h1::after {
 
 
 /* Hero Section */
-.home-section {
-  /* background: #252734; */
-  /* height: 100vh; */
- /* overflow: hidden; */
-}
 
 .container {
   transform: translate(0px, 70px);
@@ -986,8 +981,8 @@ font-family: 'Inter', sans-serif;
   width:70%
 }
   .About-para {
-    gap:25px;
-    line-height: 25px!important;
+    gap:15px;
+    line-height: 22px!important;
     width: 100%;
 
 
