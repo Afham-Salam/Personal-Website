@@ -978,16 +978,17 @@ font-family: 'Inter', sans-serif;
 
   }
   .para{
-  width:70%
+  width:70%;
+  font-size :16px;
 }
   .About-para {
     gap:15px;
     line-height: 22px!important;
     width: 100%;
-
-
   }
-
+.About-para ul{
+  line-height: 35px;
+}
   .about-container button {
     height: 50px;
     font-weight: bold;
@@ -1113,7 +1114,11 @@ padding-top: 35px;
     width: 80%;
 
   }
- 
+ .para{
+  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+
+ }
    .progress{
     height: 47px;
   }
