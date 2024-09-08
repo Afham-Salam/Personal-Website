@@ -13,6 +13,7 @@
     <script type="text/javascript"
     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <!-- AOS animation -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- Email js -->
@@ -23,8 +24,18 @@ emailjs.init("Sy9ksp3Jx6v1FNcVr");
 </script>
    
 </head>
-<body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./jquery.ripples-min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".wrapper").ripples({
+        dropRadius: 20,
+        perturbance: 0.05,
+    });
+});
+
+    </script>
    <!------ Navbar section------->
    <header class="headersection"  >
         
@@ -59,6 +70,10 @@ emailjs.init("Sy9ksp3Jx6v1FNcVr");
 </header>
 
 <!-- Hero section -->
+<div class="wrapper">
+   
+    <div id="particles-js"></div>
+
 <div  class="home-section" >
     <section id="home">
         <main id="home">
@@ -81,7 +96,7 @@ emailjs.init("Sy9ksp3Jx6v1FNcVr");
 </div>
 
 
-
+</div>
 
     <!-- About section -->
      <section id="about">
@@ -107,7 +122,7 @@ emailjs.init("Sy9ksp3Jx6v1FNcVr");
                       With expertise in MongoDB, Express.js, React, and Node.js, I create seamless and efficient solutions tailored to meet user needs.
                       My journey in web development is fueled by continuous learning and a commitment to delivering high-quality, user-friendly experiences.</p></div>
                     <ul>
-                        <li>Birthday &ensp;: &nbsp;July 26, 2002</li>
+                        
                         <li> Phone &emsp;&nbsp;&nbsp;: &nbsp;+91 7594078322</li>
                         <li> Email &nbsp;&nbsp;&emsp;:&nbsp; afhamsalam8060@gmail.com</li>
                         <li> Language : &nbsp;English</li>
@@ -491,13 +506,7 @@ data-aos-duration="1500">
    
 
 
-
-
-
-
-
-
-
+            
 
 
 
@@ -618,12 +627,122 @@ function closemenu(){
         }
 
     </script>
+ <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 150, // number of particles (snowflakes)
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff" // color of particles (snowflakes)
+            },
+            "shape": {
+                "type": "circle", // shape of particles
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+            },
+            "opacity": {
+                "value": 0.7,
+                "random": true
+            },
+            "size": {
+                "value": 5, // size of snowflakes
+                "random": true
+            },
+            "line_linked": {
+                "enable": false // no linking between particles
+            },
+            "move": {
+                "enable": true,
+                "speed": 2, // falling speed of snowflakes
+                "direction": "bottom", // snow falls downwards
+                "random": true,
+                "straight": false,
+                "out_mode": "out", // particles disappear when out of view
+                "bounce": false
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false // no interaction
+                },
+                "onclick": {
+                    "enable": false
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
 
 
-
-
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", {
+    "particles": {
+        "number": {
+            "value": 250, // Number of snowflakes
+            "density": {
+                "enable": true,
+                "value_area": 800
+            }
+        },
+        "color": {
+            "value": "#ffffff" // Snowflake color
+        },
+        "shape": {
+            "type": "circle",
+            "stroke": {
+                "width": 0,
+                "color": "#000000"
+            },
+        },
+        "opacity": {
+            "value": 0.7,
+            "random": true
+        },
+        "size": {
+            "value": 2.5, // Snowflake size
+            "random": true
+        },
+        "line_linked": {
+            "enable": false // No linking between snowflakes
+        },
+        "move": {
+            "enable": true,
+            "speed": 0.5, // Speed of snowflakes falling
+            "direction": "bottom", // Snowflakes fall downwards
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false
+        }
+    },
+    "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+            "onhover": {
+                "enable": false // No interaction on hover
+            },
+            "onclick": {
+                "enable": false // No interaction on click
+            }
+        }
+    },
+    "retina_detect": true
+});
+</script>
 
 
 
