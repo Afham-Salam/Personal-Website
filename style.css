@@ -27,7 +27,7 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #070d1b;
 }
 #particles-js {
@@ -860,7 +860,6 @@ font-family: 'Inter', sans-serif;
 
   }
  
-
   .navbar {
     height: fit-content;
   }
