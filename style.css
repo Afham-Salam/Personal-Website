@@ -33,7 +33,6 @@ body {
 #particles-js {
   position: absolute;
   width: 100%;
- 
   top: 0;
   left: 0;
   z-index: 1; /* Ensures the snow particles are above the ripple effect */
@@ -177,6 +176,7 @@ h1::after {
 .container img { 
   width: 260px;
   height: auto;
+
   
  
 }
@@ -191,8 +191,8 @@ h1::after {
 #home .container strong {
   font-size: 42px;
   font-weight: bold;
-  /* font-family: "Cormorant Garamond", serif ; */
-  font-family: "Edu AU VIC WA NT Hand", cursive!important;
+  font-family: 'Inter', sans-serif;
+
 
 }
 
