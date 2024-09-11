@@ -176,9 +176,6 @@ h1::after {
 .container img { 
   width: 260px;
   height: auto;
-
-  
- 
 }
 
 #home .container h2 {
@@ -201,7 +198,6 @@ h1::after {
   color: #a9adb8;
   /* font-family: Poppins, sans-serif; */
   font-family: "Marcellus", serif;
-  
   font-weight: 400;
   font-style: normal;
   white-space: nowrap;
@@ -914,25 +910,28 @@ font-family: 'Inter', sans-serif;
   }
   .container {
     transform: translate(10px, 70px);
-    padding: 20px;
     display: flex;
     flex-direction: row !important;
-    gap: 35px;
+    /* gap: 35px; */
   }
 
   .container2 {
-    transform: translate(380px, 110px);
+    
     padding: 10px;
     display: flex;
     flex-direction: column;
-   
+
     place-items: center;
 
   }
-
+.profile-container{
+  height: 100vh;
+display: flex;
+justify-content: center;
+}
 
   .container img {
-    transform: translate(100px, -30px);
+    /* transform: translate(200px, -30px); */
     width: 300px;
     height: auto;
 
@@ -1003,7 +1002,7 @@ font-family: 'Inter', sans-serif;
 }
   .About-para {
     gap:15px;
-    line-height: 22px!important;
+    line-height: 23px!important;
     width: 100%;
   }
 .About-para ul{
@@ -1137,7 +1136,7 @@ padding-top: 35px;
 
   }
  .para{
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Cormorant Garamond", serif;
 
  }
