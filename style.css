@@ -32,6 +32,7 @@ body {
 }
 #particles-js {
   position: absolute;
+  display:none;
   width: 100%;
   top: 0;
   left: 0;
@@ -548,7 +549,7 @@ padding-top: 70px;
 
 
 .deatil-box-para {
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 400;
 
 }
@@ -983,6 +984,7 @@ justify-content: center;
   #particles-js
 
   {
+    display: block;
     height: 100%;
   }
 /* #about{
@@ -1163,6 +1165,17 @@ padding-top: 35px;
 
     grid-template-columns: 300px 300px;
 
+  }
+  .deatil-box-para {
+  
+    font-size: 15px;
+    
+  
+  }
+  #particles-js
+
+  {
+    display: block;
   }
  
 }
