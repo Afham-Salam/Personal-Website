@@ -197,9 +197,9 @@ h1::after {
 
 #home .container p {
   font-size: 17px;
-  color: #a9adb8;
-  /* font-family: Poppins, sans-serif; */
-  font-family: "Marcellus", serif;
+  color: #fec544;;
+  
+  
   font-weight: 400;
   font-style: normal;
   white-space: nowrap;
@@ -219,7 +219,7 @@ h1::after {
 
 @keyframes blinker {
   0% {
-    background-color: #00aeff;
+    background-color: white;
   }
 
   50% {
@@ -227,7 +227,7 @@ h1::after {
   }
 
   100% {
-    background-color: #00aeff;
+    background-color: white;
   }
 }
 
@@ -1008,7 +1008,7 @@ justify-content: center;
 }
   .About-para {
     gap:15px;
-    line-height: 23px!important;
+    line-height: 25px!important;
     width: 100%;
   }
 .About-para ul{
@@ -1143,7 +1143,7 @@ padding-top: 35px;
   }
  .para{
   font-size: 16px;
-  font-family: "Cormorant Garamond", serif;
+ 
 
  }
    .progress{
