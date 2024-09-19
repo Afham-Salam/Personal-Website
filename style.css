@@ -159,19 +159,20 @@ h1::after {
 
 /* Hero Section */
 
-.container {
+.container { 
+  margin-top: 20px;
   transform: translate(0px, 70px);
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 28px;
 }
 
 .container2 {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 12px;
 }
 
 .container img { 
