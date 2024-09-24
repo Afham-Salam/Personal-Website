@@ -1032,7 +1032,8 @@ justify-content: center;
     padding-top: 5px;
   }
   .skills-section{
-padding-top: 35px;
+    margin-top: 20px;
+
   }
   .progess-bar {
     width: 90px;
