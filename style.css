@@ -938,9 +938,10 @@ justify-content: center;
 }
 
   .container img {
-    /* transform: translate(200px, -30px); */
-    width: 300px;
+   
+    width: 350px!important;
     height: auto;
+    z-index: 99999!important;
 
     margin-top: 10px;
     align-self: flex-start !important;
@@ -1099,17 +1100,21 @@ justify-content: center;
     padding: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+   
     gap: 35px;
   }
 .container2{
   gap: 10px;
 }
   .container img {
-    width: 400px;
+    width: 345px;
     height: auto;
     margin-top: 10px;
     align-self: center;
+    position: relative;
+  
   }
 
   #home .container h2 {
@@ -1183,6 +1188,7 @@ justify-content: center;
 
   {
     display: block;
+    
   }
  
 }
