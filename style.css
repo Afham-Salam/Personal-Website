@@ -303,10 +303,7 @@ h1::after {
   border: 2px solid #fec544;
 }
 
-.About-para li {
-  list-style: none;
-  font-size: 14px;
-}
+
 
 .social-media {
   display: flex;
@@ -623,9 +620,10 @@ h3 {
 
 
 .project-btn {
-  width: 60px;
-  height: 25px;
-  border-radius: 42.5px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
   background-color: #fec544;
   color: black;
   font-size: large;
@@ -1049,8 +1047,8 @@ justify-content: center;
   }
 
   .project-container {
+    padding-top: 20px;
     display: grid;
-
     grid-template-columns: 300px 300px;
 
   }
@@ -1145,7 +1143,7 @@ justify-content: center;
   }
   .About-para {
     /* font-size: 17px; */
-    line-height: 38px;
+    line-height: 38px!important;
     width: 80%;
 
   }
